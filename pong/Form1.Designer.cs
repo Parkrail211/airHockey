@@ -40,18 +40,19 @@ namespace pong
             this.p1ScoreLabel.BackColor = System.Drawing.Color.Transparent;
             this.p1ScoreLabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.p1ScoreLabel.ForeColor = System.Drawing.Color.White;
-            this.p1ScoreLabel.Location = new System.Drawing.Point(237, 9);
+            this.p1ScoreLabel.Location = new System.Drawing.Point(12, 9);
             this.p1ScoreLabel.Name = "p1ScoreLabel";
             this.p1ScoreLabel.Size = new System.Drawing.Size(31, 23);
             this.p1ScoreLabel.TabIndex = 0;
             this.p1ScoreLabel.Text = "-";
+            this.p1ScoreLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // p2ScoreLabel
             // 
             this.p2ScoreLabel.BackColor = System.Drawing.Color.Transparent;
             this.p2ScoreLabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.p2ScoreLabel.ForeColor = System.Drawing.Color.White;
-            this.p2ScoreLabel.Location = new System.Drawing.Point(296, 9);
+            this.p2ScoreLabel.Location = new System.Drawing.Point(557, 9);
             this.p2ScoreLabel.Name = "p2ScoreLabel";
             this.p2ScoreLabel.Size = new System.Drawing.Size(31, 23);
             this.p2ScoreLabel.TabIndex = 1;
